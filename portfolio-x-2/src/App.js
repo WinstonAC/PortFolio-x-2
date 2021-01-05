@@ -1,8 +1,11 @@
 // import logo from './logo.svg';
 import "./App.css";
 import React from "react";
-import Card from "./Components/Card";
-import { Icon } from 'semantic-ui-react'
+import Card1 from "./Components/Card1";
+import Card2 from "./Components/Card1";
+import Card3 from "./Components/Card1";
+import Card4 from "./Components/Card1";
+import { Icon } from "semantic-ui-react";
 
 class App extends React.Component {
   constructor() {
@@ -15,12 +18,19 @@ class App extends React.Component {
         <nav className="nav">
           <ul>
             <li>
-              <a style={{ textDecoration: "none", color: "black" }} href="mailto:wcampbell0880@gmail.com" target="_blank">
+              <a
+                style={{ textDecoration: "none", color: "black" }}
+                href="mailto:wcampbell0880@gmail.com"
+                target="_blank"
+              >
                 Contact
               </a>
             </li>
             <li>
-              <a style={{ textDecoration: "none", color: "black" }} href="https://drive.google.com/file/d/13_Ao-RFhQCGdzIaELmW9hamdItyNhS5i/view?usp=sharing">
+              <a
+                style={{ textDecoration: "none", color: "black" }}
+                href="https://drive.google.com/file/d/13_Ao-RFhQCGdzIaELmW9hamdItyNhS5i/view?usp=sharing"
+              >
                 Resume
               </a>
             </li>
@@ -38,23 +48,26 @@ class App extends React.Component {
               anything that awakens the senses.{" "}
             </p>
             <div class="icons">
-            <Icon name='github' size='small' />
-              <i class="fa fa-2x fa-medium"></i>
-              <i class="fa fa-2x fa-envelope-square"></i>
-              <i class="fa fa-2x fa-twitter"></i>
-              <i class="fa fa-2x fa-instagram"></i>
+              <Icon name="github" size="big" />
+              <Icon name="react" size="big" />
+              <Icon name="js" size="big" />
+              <Icon name="css3" size="big" />
+              <Icon name="html5" size="big" />
+              <Icon name="database" size="big" />
+              <Icon name="python" size="big" />
+              <Icon name="php" size="big" />
             </div>
           </div>
         </div>
 
         <div className="first-flex">
           <h2>My Work</h2>
-            <Card></Card>
-            {/* <Card></Card> */}
-            {/* <Card></Card>
-            <Card></Card> */}
-            </div>
-      </div>
+            <Card1></Card1>
+            <Card2></Card2>
+            <Card3></Card3>
+            <Card4></Card4>
+          </div>
+        </div>
     );
   }
 }
