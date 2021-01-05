@@ -1,56 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
 }
 
-p, body {
-  font-family: 'Raleway', sans-serif;
+p,
+body {
+    font-family: 'Raleway', sans-serif;
 
 }
 
 .first-flex {
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  padding: 2%
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    padding: 2%
 }
 
-.developer-name {
-  
+.second-flex {
+    display: flex;
+    justify-content: center;
+
 }
+
+.thrid-flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.developer-name {}
 
 .icons {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .icons i {
-  padding-right: 10px;
+    padding-right: 10px;
 }
 
 .card {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
-  .first-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    .first-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
     text-align: center;
-  }
-  
-  .icons {
-    justify-content: center;
-  }
+    padding: 16px;
+    text-decoration: none;
+    display: block;
 }

@@ -1,10 +1,18 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
+
 const CardExampleCard = () => (
+    <div className="card1">
   <Card>
-    <Image src='/images/avatar/large/matthew.png' wrapped ui={false} />
-    <Card.Content>
+    {/* <Image src='/images/avatar/large/matthew.png' wrapped ui={false} /> */}
+    <Card.Content
+    style={{
+        height: "200px",
+        backgroundImage: 'url(${https://i.imgur.com/mXdyn1Y.png})',
+        backgrooundSize: "cover", 
+    }}
+    >
       <Card.Header>Matthew</Card.Header>
       <Card.Meta>
         <span className='date'>Joined in 2015</span>
@@ -20,6 +28,7 @@ const CardExampleCard = () => (
       </a>
     </Card.Content>
   </Card>
+  </div>
 )
 
 export default CardExampleCard

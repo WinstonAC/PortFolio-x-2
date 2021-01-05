@@ -11,14 +11,18 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <nav>
+        <nav className="nav">
           <ul>
             <li>
-              <a href="mailto:wcampbell0880@gmail.com" target="_blank">
-                Let's Chat
+              <a style={{ textDecoration: "none", color: "black" }} href="mailto:wcampbell0880@gmail.com" target="_blank">
+                Contact
               </a>
             </li>
-            <li></li>
+            <li>
+              <a style={{ textDecoration: "none", color: "black" }} href="https://drive.google.com/file/d/13_Ao-RFhQCGdzIaELmW9hamdItyNhS5i/view?usp=sharing">
+                Resume
+              </a>
+            </li>
           </ul>
         </nav>
         <div class="first-flex">
@@ -39,21 +43,18 @@ class App extends React.Component {
               <i class="fa fa-2x fa-twitter"></i>
               <i class="fa fa-2x fa-instagram"></i>
             </div>
-        <div class="first-flex">
+          </div>
+        </div>
+
+        <div className="first-flex">
           <h2>My Work</h2>
-          <Card></Card>
-          <Card></Card>
-          <div class="card">
-            <h6>Title</h6>
-            <p>Subtitle</p>
+          <div className="second-flex">
+            <Card></Card>
+            <Card></Card>
           </div>
-          <div class="card">
-            <h6>Title</h6>
-            <p>Subtitle</p>
-          </div>
-          <div class="card">
-            <h6>Title</h6>
-            <p>Subtitle</p>
+          <div className="thrid-flex">
+            <Card></Card>
+            <Card></Card>
           </div>
         </div>
       </div>
