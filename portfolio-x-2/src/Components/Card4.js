@@ -1,25 +1,22 @@
 import React from "react";
 import { Card, Icon, Image } from "semantic-ui-react";
 
-const CardExampleCard = () => (
-    <Card>
-      <Image src="dogfoodapi.png" wrapped ui={false} />
+const CardExampleCard4 = () => (
+    <Card4>
+      <Image src="phonebook.png" wrapped ui={false} />
       <Card.Content>
-        <Card.Header>Matthew</Card.Header>
+        <Card.Header>PhoneBook</Card.Header>
         <Card.Meta>
-          <span className="date">Joined in 2015</span>
+          <span className="date">Built in Python</span>
         </Card.Meta>
         <Card.Description>
-          Matthew is a musician living in Nashville.
+        This program was built using python and SQL with Peewee.
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
-        <a>
-          <Icon name="user" />
-          22 Friends
-        </a>
+      <a href="https://github.com/WinstonAC/PhoneBook.py.git">click</a>
       </Card.Content>
-    </Card>
+    </Card4>
 );
 
-export default CardExampleCard;
+export default CardExampleCard4;

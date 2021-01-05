@@ -1,25 +1,22 @@
 import React from "react";
 import { Card, Icon, Image } from "semantic-ui-react";
 
-const CardExampleCard = () => (
-    <Card>
-      <Image src="dogfoodapi.png" wrapped ui={false} />
+const CardExampleCard3 = () => (
+    <Card3>
+      <Image src="mock.png" wrapped ui={false} />
       <Card.Content>
-        <Card.Header>Matthew</Card.Header>
+        <Card.Header>Interior Design Mockup </Card.Header>
         <Card.Meta>
-          <span className="date">Joined in 2015</span>
+          <span className="date">HTML/CSS</span>
         </Card.Meta>
         <Card.Description>
-          Matthew is a musician living in Nashville.
+        Interior Design Mockup 
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
-        <a>
-          <Icon name="user" />
-          22 Friends
-        </a>
+      <a href="https://github.com/WinstonAC/INTERIOR-DESIGN-MU.git">click</a>
       </Card.Content>
-    </Card>
+    </Card3>
 );
 
-export default CardExampleCard;
+export default CardExampleCard3;
