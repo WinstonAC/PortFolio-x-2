@@ -2,6 +2,7 @@
 import "./App.css";
 import React from "react";
 import Card from "./Components/Card";
+import { Icon } from 'semantic-ui-react'
 
 class App extends React.Component {
   constructor() {
@@ -37,7 +38,7 @@ class App extends React.Component {
               anything that awakens the senses.{" "}
             </p>
             <div class="icons">
-              <i class="fa fa-2x fa-github"></i>
+            <Icon name='github' size='small' />
               <i class="fa fa-2x fa-medium"></i>
               <i class="fa fa-2x fa-envelope-square"></i>
               <i class="fa fa-2x fa-twitter"></i>
@@ -48,15 +49,11 @@ class App extends React.Component {
 
         <div className="first-flex">
           <h2>My Work</h2>
-          <div className="second-flex">
             <Card></Card>
-            <Card></Card>
-          </div>
-          <div className="thrid-flex">
-            <Card></Card>
-            <Card></Card>
-          </div>
-        </div>
+            {/* <Card></Card> */}
+            {/* <Card></Card>
+            <Card></Card> */}
+            </div>
       </div>
     );
   }
