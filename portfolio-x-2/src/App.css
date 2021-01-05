@@ -38,11 +38,17 @@ body {
 
 }
 
-.developer-name {}
+.developer-name {
+    margin: 10px;
+margin-top: 20px;
+
+}
 
 .icons {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
 .icons i {
@@ -58,22 +64,6 @@ body {
     justify-content: center;
     align-items: center;
 } */
-
-@media only screen and (max-width: 600px) {
-    .first-flex {
-        display: flex;
-        /* justify-content: space-between;
-        justify-content: space-around; */
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .icons {
-        justify-content: center;
-    }
-}
 
 .nav {
     list-style-type: none;
@@ -109,3 +99,32 @@ li a {
 /* li a:hover {
     background-color: #111111;
   } */
+
+  .about{
+      margin-top: 100px;
+      margin-bottom: 0px;
+      padding: 10px;
+  }
+.mywork{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .first-flex {
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .icons {
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+

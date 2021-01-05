@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Icon, Image } from "semantic-ui-react";
 
 const CardExampleCard2 = () => (
-  <Card2>
+  <Card>
     <Image src="Photo-Django.png" wrapped ui={false} />
     <Card.Content>
       <Card.Header>Photo_Django</Card.Header>
@@ -17,7 +17,7 @@ const CardExampleCard2 = () => (
     <Card.Content extra>
       <a href="https://github.com/WinstonAC/Photo-React-NYC.git">click</a>
     </Card.Content>
-  </Card2>
+  </Card>
 );
 
 export default CardExampleCard2;

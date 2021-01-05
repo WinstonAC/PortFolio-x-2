@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Icon, Image } from "semantic-ui-react";
 
 const CardExampleCard4 = () => (
-    <Card4>
+    <Card>
       <Image src="phonebook.png" wrapped ui={false} />
       <Card.Content>
         <Card.Header>PhoneBook</Card.Header>
@@ -16,7 +16,7 @@ const CardExampleCard4 = () => (
       <Card.Content extra>
       <a href="https://github.com/WinstonAC/PhoneBook.py.git">click</a>
       </Card.Content>
-    </Card4>
+    </Card>
 );
 
 export default CardExampleCard4;

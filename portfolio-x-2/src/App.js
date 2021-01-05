@@ -2,9 +2,9 @@
 import "./App.css";
 import React from "react";
 import Card1 from "./Components/Card1";
-import Card2 from "./Components/Card1";
-import Card3 from "./Components/Card1";
-import Card4 from "./Components/Card1";
+import Card2 from "./Components/Card2";
+import Card3 from "./Components/Card3";
+import Card4 from "./Components/Card4";
 import { Icon } from "semantic-ui-react";
 
 class App extends React.Component {
@@ -40,6 +40,7 @@ class App extends React.Component {
           <div class="developer-name">
             <h1>Billy Campbell</h1>
             <p>Full Stack Web Developer | Philanthropist |</p>
+            <div className="about">
             <h2>About Me</h2>
             <p>
               Hi, my name is William Campbell, Billy, if we become friends! I’m
@@ -47,6 +48,7 @@ class App extends React.Component {
               specializing in building various projects, cool websites, and
               anything that awakens the senses.{" "}
             </p>
+            </div>
             <div class="icons">
               <Icon name="github" size="big" />
               <Icon name="react" size="big" />
@@ -61,7 +63,9 @@ class App extends React.Component {
         </div>
 
         <div className="first-flex">
+        <div className="mywork">
           <h2>My Work</h2>
+          </div>
             <Card1></Card1>
             <Card2></Card2>
             <Card3></Card3>
