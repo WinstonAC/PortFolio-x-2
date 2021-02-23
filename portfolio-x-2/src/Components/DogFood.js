@@ -75,8 +75,7 @@ export default function DogFood() {
       <CardContent>
         <Typography variant='body2' color='textSecondary' component='p'>
           Motivation: Dog Food API! Take a look under the hood and check out the
-          CRUD functionality - Backend: Expresss Frontend: React ***Deployed
-          link coming soon!
+          CRUD functionality - Backend: Expresss Frontend: React
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
