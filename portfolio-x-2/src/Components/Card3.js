@@ -5,16 +5,16 @@ const CardExampleCard3 = () => (
     <Card>
       <Image src="mock.png" wrapped ui={false} />
       <Card.Content>
-        <Card.Header>Interior Design Mockup </Card.Header>
+        <Card.Header>Dstination Unknown  </Card.Header>
         <Card.Meta>
           <span className="date">HTML/CSS</span>
         </Card.Meta>
         <Card.Description>
-        Interior Design Mockup 
+        Motivation: Destination Unknown 
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
-      <a href="https://github.com/WinstonAC/INTERIOR-DESIGN-MU.git">click</a>
+      <a href="https://destination-unknown.billycampbell.dev/">click</a>
       </Card.Content>
     </Card>
 );

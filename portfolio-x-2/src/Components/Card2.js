@@ -10,7 +10,7 @@ const CardExampleCard2 = () => (
         <span className="date">Built in Django</span>
       </Card.Meta>
       <Card.Description>
-        Motivation This project was created as the backend to the Photonyc-React
+        Motivation: This project was created as the backend to the Photonyc-React
         project
       </Card.Description>
     </Card.Content>

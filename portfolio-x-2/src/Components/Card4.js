@@ -10,7 +10,7 @@ const CardExampleCard4 = () => (
           <span className="date">Built in Python</span>
         </Card.Meta>
         <Card.Description>
-        This program was built using python and SQL with Peewee.
+        Motivation: This program was built using python and SQL with Peewee.
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
