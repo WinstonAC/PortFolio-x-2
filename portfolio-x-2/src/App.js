@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import "./App.css";
 import React from "react";
-import Card1 from "./Components/Card1";
-import Card2 from "./Components/Card2";
-import Card3 from "./Components/Card3";
-import Card4 from "./Components/Card4";
+// import Card1 from "./Components/Card1";
+// import Card2 from "./Components/Card2";
+// import Card3 from "./Components/Card3";
+// import Card4 from "./Components/Card4";
 import { Icon } from "semantic-ui-react";
-// import from 'semantic-ui-css/semantic.min.css’
+import DogFood from "./Components/DogFood";
+import PhotoDjango from "./Components/PhotoDjango";
+import Expanding_X_Cards_X_50501 from "./Components/ExpandingCards";
 
 class App extends React.Component {
   constructor() {
@@ -30,7 +32,7 @@ class App extends React.Component {
             <li>
               <a
                 style={{ textDecoration: "none", color: "black" }}
-                href='https://drive.google.com/file/d/13_Ao-RFhQCGdzIaELmW9hamdItyNhS5i/view?usp=sharing'
+                href='https://drive.google.com/file/d/127hCF_3cBIL8Uf6abXKZHGSHMO_Sx8gI/view?usp=sharing'
               >
                 Resume
               </a>
@@ -39,8 +41,10 @@ class App extends React.Component {
         </nav>
         <div class='first-flex'>
           <div class='developer-name'>
-            <h1 className="name">Billy Campbell</h1>
-            <p className="name">Full Stack Web Developer | Philanthropist | World Traveler </p>
+            <h1 className='name'>Billy Campbell</h1>
+            <p className='name'>
+              Full Stack Web Developer | Philanthropist | World Traveler{" "}
+            </p>
             <div className='about'>
               <h2>About Me</h2>
               <p>
@@ -63,15 +67,18 @@ class App extends React.Component {
           </div>
         </div>
         <div class='about'>
-          <h2 id="work">My Work </h2>
+          <h2 id='work'>Recent Projects </h2>
         </div>
-        <div className='card-box'>
-          <div className='cards-listing'>
-            <Card1 className="cardy"></Card1>
-            <Card2 className="cardy"></Card2>
-            <Card3 className="cardy"></Card3>
-            <Card4 className="cardy"></Card4>
-          </div>
+        <div className='grid-container'>
+        <div className="grid-child dog">
+        <DogFood />
+        </div>
+        <div className="grid-child photo">
+        <PhotoDjango />
+        </div>
+        <div className="grid-child expanding">
+        <Expanding_X_Cards_X_50501 />
+        </div>
         </div>
       </div>
     );
