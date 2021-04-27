@@ -107,8 +107,9 @@ li a {
     /* padding-bottom: 10px; */
     /* padding: 15px; */
 }
-.grid-container{
-/* here is where youre going to add the grid */
+
+.grid-container {
+    /* here is where youre going to add the grid */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
@@ -123,11 +124,12 @@ li a {
     flex-wrap: wrap;
     border: 2px solid blue;
 }
-.cardy{
+
+.cardy {
     border: 1px solild green;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .first-flex {
         display: flex;
         justify-content: space-between;
@@ -139,8 +141,30 @@ li a {
         width: 100%;
     }
 
-    .icons {
-        justify-content: center;
-        padding: 10px;
+  
+
+        .icons {
+            justify-content: center;
+            padding: 10px;
+        }
     }
-}
+
+    @media only screen and (min-width: 992px) {
+        .first-flex {
+            display: flex;
+            justify-content: space-between;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+    
+      
+    
+            .icons {
+                justify-content: center;
+                padding: 10px;
+            }
+        }
