@@ -129,8 +129,8 @@ li a {
     border: 1px solild green;
 }
 
-@media only screen and (min-width: 49em) {
-    . {
+@media only screen and (max-width: 49em) {
+    .app {
         display: flex;
         justify-content: space-between;
         justify-content: space-around;
