@@ -54,32 +54,32 @@ export default function DogFood() {
       <CardHeader
         avatar={
           <Avatar aria-label='Dog Food' className={classes.avatar}>
-            DF
+            BE
           </Avatar>
         }
         action={
-          <a href='https://github.com/WinstonAC/Dog-Food-APi-x-Express.git'>
+          <a href='https://github.com/WinstonAC/groupproject8'>
             <IconButton aria-label='settings'>
               <GitHubIcon />
             </IconButton>
           </a>
         }
-        title='Dog Food API x Express'
-        subheader='October 2020'
+        title='Black Experience'
+        subheader='November 2020'
       />
       <CardMedia
         className={classes.media}
-        image='https://i.imgur.com/JhfJE23.png?1'
+        image='/public/bke.png'
         title='Paella dish'
       />
       <CardContent>
         <Typography variant='body2' color='textSecondary' component='p'>
-          Motivation: Dog Food API! Take a look under the hood and check out the
-          CRUD functionality - Backend: Expresss Frontend: React
+          Motivation: This group project highlights black business within the apparel
+          industry - Backend: Express Frontend: React
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <a href='https://dog-food-react.vercel.app'>
+        <a href='https://blk-experience.vercel.app/'>
           <IconButton aria-label='add to favorites'>
             <LaunchIcon />
           </IconButton>
