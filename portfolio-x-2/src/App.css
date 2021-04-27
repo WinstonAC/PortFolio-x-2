@@ -48,7 +48,7 @@ body {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 50px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .icons i {
@@ -130,7 +130,7 @@ li a {
 }
 
 @media only screen and (min-width: 49em) {
-    .{
+    . {
         display: flex;
         justify-content: space-between;
         justify-content: space-around;
@@ -141,10 +141,11 @@ li a {
         width: 100%;
     }
 
-  
-
-        .icons {
-            justify-content: left;
-            padding: 10px;
-        }
+    .nav {
+        justify-content: safe center;
     }
+
+
+
+
+}
