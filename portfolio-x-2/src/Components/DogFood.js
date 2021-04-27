@@ -69,10 +69,10 @@ export default function DogFood() {
       />
       <CardMedia
         className={classes.media}
-        image='/public/bke.png'
+        image='https://i.imgur.com/5MVl5Pc.png'
         title='Paella dish'
       />
-      <CardContent>
+      <CardContent className="hi7">
         <Typography variant='body2' color='textSecondary' component='p'>
           Motivation: This group project highlights black business within the apparel
           industry - Backend: Express Frontend: React
