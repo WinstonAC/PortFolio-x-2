@@ -140,12 +140,27 @@ li a {
         text-align: center;
         width: 100%;
     }
-
+.grid-container{
+    display: block;
+}
     .nav {
         justify-content: safe center;
     }
 
+    .icons {
+        justify-items: auto;
+    }
 
+    .grid-child-dog {
+        justify-items: center;
+    }
 
+    .grid-child-photo {
+        justify-content: center;
+    }
+
+    .grid-child-expanding {
+        justify-content: center;
+    }
 
 }

@@ -70,13 +70,13 @@ class App extends React.Component {
           <h2 id='work'>Recent Projects </h2>
         </div>
         <div className='grid-container'>
-        <div className="grid-child dog">
+        <div className="grid-child-dog">
         <DogFood />
         </div>
-        <div className="grid-child photo">
+        <div className="grid-child-photo">
         <PhotoDjango />
         </div>
-        <div className="grid-child expanding">
+        <div className="grid-child-expanding">
         <Expanding_X_Cards_X_50501 />
         </div>
         </div>
