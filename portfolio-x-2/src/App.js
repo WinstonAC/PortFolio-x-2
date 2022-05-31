@@ -49,7 +49,7 @@ class App extends React.Component {
               <h2>About Me</h2>
               <p>
                 Hi, my name is William Campbell, Billy, if we become friends!
-                I’m an ambitious and driven Software Engineer based in NYC
+                I’m an ambitious and driven Software Engineer and Certifed Product Owner based in Berlin,
                 specializing in building various projects, cool websites, and
                 anything that awakens the senses.{" "}
               </p>
