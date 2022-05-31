@@ -32,7 +32,7 @@ class App extends React.Component {
             <li>
               <a
                 style={{ textDecoration: "none", color: "black" }}
-                href='https://drive.google.com/file/d/127hCF_3cBIL8Uf6abXKZHGSHMO_Sx8gI/view?usp=sharing'
+                href='https://drive.google.com/file/d/1UlUv5TeqDOMXCbquJXXRBPGsjtJHFEPx/view?usp=sharing'
               >
                 Resume
               </a>
